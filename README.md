@@ -14,7 +14,7 @@ npm install --save gollumts-objecttype
 	
 	import { ObjectString, ObjectNumber } from 'gollumts-objecttype'
 	
-	const objectString: ObjectString<T>; // replace "const objectString: [key: string]: T;"
-	const objectNumber: ObjectNumber<T>; // replace "const objectString: [key: number]: T;"
+	const objectString: ObjectString<T> = {}; // replace "const objectString: [key: string]: T = {};"
+	const objectNumber: ObjectNumber<T> = {}; // replace "const objectString: [key: number]: T = {};"
 	
 ```
