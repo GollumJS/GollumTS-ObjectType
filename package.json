@@ -1,0 +1,35 @@
+{
+  "name": "gollumts-objecttype",
+  "version": "1.0.0",
+  "description": "Is a simple interface for replace \"[key: string]: T\" or \"[key: number]: T\"",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GollumJS/GollumTS-ObjecType.git"
+  },
+  "keywords": [
+    "Object",
+    "Interface",
+    "typescript"
+  ],
+  "author": "Damien Duboeuf <smeagolworms4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GollumJS/GollumTS-ObjecType/issues"
+  },
+  "homepage": "https://github.com/GollumJS/GollumTS-ObjecType#readme",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "files": [
+    "index.ts",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    ".gitignore"
+  ]
+}
