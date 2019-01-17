@@ -1,6 +1,6 @@
 # GollumTS-ObjectType
 
-Is a simple interface for replace "[key: string]: T" or "[key: number]: T" or {new(): T; }
+Is a simple interface for replace "[key: string]: T" or "[key: number]: T" or "{new(): T; }"
 
 ## Install:
 
