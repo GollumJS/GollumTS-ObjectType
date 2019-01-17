@@ -1,6 +1,6 @@
 # GollumTS-ObjectType
 
-Is a simple interface for replace "[key: string]: T" or "[key: number]: T"
+Is a simple interface for replace "[key: string]: T" or "[key: number]: T" or {new(): T; }
 
 ## Install:
 
@@ -14,7 +14,8 @@ npm install --save gollumts-objecttype
 	
 	import { ObjectString, ObjectNumber } from 'gollumts-objecttype'
 	
-	const objectString: ObjectString<T> = {}; // replace "const objectString: [key: string]: T = {};"
-	const objectNumber: ObjectNumber<T> = {}; // replace "const objectString: [key: number]: T = {};"
+	const objectString: ObjectString<T> = {}; // replace "const objectString: {[key: string]: T} = {};"
+	const objectNumber: ObjectNumber<T> = {}; // replace "const objectString: {[key: number]: T} = {};"
+	const objectConstructor: ObjectConstructor<T> = null; // replace "const objectConstructor: {new(): T; } = null;"
 	
 ```
